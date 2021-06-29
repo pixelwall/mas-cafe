@@ -54,7 +54,7 @@ export default function Home() {
             </div>
          </Section>
          <Section className="relative">
-            <article className="z-10 w-1/3 mx-auto p-12 transform bg-white text-xl -translate-y-1/2">
+            <article className="shadow-md z-10 w-1/3 mx-auto p-12 transform bg-white text-xl -translate-y-1/2">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Natus explicabo recusandae sed aliquid quo quasi. Eveniet quos accusamus odit placeat ea, fugit, fuga quis rerum, rem suscipit delectus id repellendus?</p>
             </article>
          </Section>
@@ -69,8 +69,10 @@ export default function Home() {
                 <Card background="/img/image-card3.png" text="Carta 3..." />
             </article>
          </Section>
-         <Section styles="py-12 w-10/12 mx-auto flex">
-            <article className="w-1/2">
+         <Section styles="py-12 w-10/12 mx-auto flex relative">
+{/*            <div className={styles.decoBox}>
+            </div>
+*/}            <article className={styles.decoShadow}>
                 <Image
                 src="/img/image-section3.png"
                 width={650}
@@ -85,23 +87,6 @@ export default function Home() {
                 <p className="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odio inventore quidem voluptas dolor? Ipsa, labore minima a debitis accusantium. Obcaecati pariatur atque cumque quos eligendi cum doloribus quia possimus?</p>
             </article>
          </Section>
-{/*
-      <section className="py-24">
-      <div className="flex w-10/12 mx-auto relative">
-        <article className="w-1/2">
-          <Image src="/img/image-section3.png"
-          width={650}
-          height={800}
-          objectFit="cover"
-          />
-        </article>
-        <article className="w-1/2">
-          <h1 className="text-center text-5xl tracking-widest leading-relaxed">How to</h1>
-          <h1 className="text-center text-5xl tracking-widest leading-relaxed">find us?</h1>
-          <p className="p-12 text-center text-xl tracking-widest">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, commodi earum, expedita vero accusantium itaque ea hic mollitia tempore voluptatum corporis molestias necessitatibus? Voluptates voluptatibus veritatis pariatur, illum corrupti voluptate!</p>
-        </article>
-      </div>
-      </section>*/}
      </main>
     </div>
   )

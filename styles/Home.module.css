@@ -31,3 +31,16 @@
 .cardContent:hover {
 	opacity: 0.75;
 }
+
+.decoBox {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 650px;
+	height: 800px;
+}
+
+.decoShadow {
+	box-shadow: -90px 40px #eab777;
+	width: 50%;
+}

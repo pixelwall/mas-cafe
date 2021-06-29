@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundSize: {
+        'deco': '50%'
+      },
     	colors: {
     		'orange': '#eab777'
     	},

@@ -33,3 +33,8 @@ h3, p {
 nav li {
 	margin: 0 15px;
 }
+
+article {
+	padding: 0;
+	margin: 0;
+}
