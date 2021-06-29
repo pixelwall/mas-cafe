@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: "Eras";
+	src: url("/fonts/eras-medium-itc.ttf");
+}
+
+@font-face {
+	font-family: "Geo";
+	src: url("/fonts/geometric 415 black bt.ttf");
+}
+
+body {
+	overflow-x: hidden;
+}
+
+h1 {
+	font-family: "Geo";
+	color: #413a3a;
+	text-transform: uppercase;
+}
+
+h3, p {
+	font-family: "Eras";
+	color: #413a3a;
+}
+
+nav li {
+	margin: 0 15px;
+}
