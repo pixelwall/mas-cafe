@@ -2,7 +2,11 @@
 	background-image: url("../public/img/infoBackground.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 3rem 0;
+}
+
+.map {
+	width: 100%;
+	cursor: pointer;
 }
 
 .inputContainer {
